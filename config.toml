@@ -74,3 +74,11 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.a
 enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 uptodown-dlurl = "https://twitch.en.uptodown.com/android"
+
+[Gboard]
+enabled = true
+patches-source = "jasonwu1994/Gboard-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "Jasonwu"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/gboard/"
+uptodown-dlurl = "https://gboard-go.en.uptodown.com/android"
