@@ -1,5 +1,3 @@
-Gboard: 17.7.7.932364120-release-arm64-v8a  
-Gboard2: 17.8.3.939743344-release-arm64-v8a  
 Music-Morphe: 9.15.51  
 Reddit-Morphe: 2026.14.0  
 YouTube-Morphe: 21.04.223  
