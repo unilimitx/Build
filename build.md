@@ -1,4 +1,5 @@
 Gboard: 17.7.7.932364120-release-arm64-v8a  
+Gboard2: 17.8.3.939743344-release-arm64-v8a  
 Music-Morphe: 9.15.51  
 Reddit-Morphe: 2026.14.0  
 YouTube-Morphe: 21.04.223  
@@ -12,5 +13,8 @@ Patches: jasonwu1994/patches-2.4.0.mpp
 [Changelog](https://github.com/jasonwu1994/Gboard-patches/releases/tag/v2.4.0)
 
 CLI: MorpheApp/morphe-desktop-1.12.0-all.jar  
+Patches: jkennethcarino/patches-1.2.0.mpp  
+[Changelog](https://github.com/jkennethcarino/adobo/releases/tag/v1.2.0)
+
 Patches: MorpheApp/patches-1.38.0.mpp  
 [Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.38.0)  
