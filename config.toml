@@ -48,6 +48,7 @@ cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Jasonwu"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/gboard/"
 uptodown-dlurl = "https://gboard-go.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/unix-custom-apk/apks/com.google.android.inputmethod.latin"
 
 [Gboard2]
 enabled = true
@@ -58,6 +59,7 @@ cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Jkennethcarino"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/gboard/"
 uptodown-dlurl = "https://gboard-go.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/unix-custom-apk/apks/com.google.android.inputmethod.latin"
 
 [TaskManager]
 enabled = true
@@ -77,7 +79,7 @@ cli-source = "MorpheApp/morphe-cli"
 rv-brand = "rushiranpise"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
+archive-dlurl = "https://archive.org/download/unix-custom-apk/apks/com.google.android.apps.photos"
 
 [Twitter]
 enabled = false
