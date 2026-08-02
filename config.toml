@@ -6,12 +6,6 @@ parallel-jobs = 1
 
 # you can use rvmm-config-gen to generate a config
 
-[YouTube]
-build-mode = "apk"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-
 [YouTube-Morphe]
 app-name = "YouTube"
 patches-source = "MorpheApp/morphe-patches"
@@ -21,13 +15,6 @@ build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-
-[Music]
-build-mode = "apk"
-arch = "arm64-v8a"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
 [Music-Morphe]
 app-name = "Music"
@@ -41,39 +28,16 @@ uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
 [Reddit-Morphe]
+enabled = false
 app-name = "Reddit"
 rv-brand = "Morphe"
-build-mode = "both"
+build-mode = "apk"
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
 uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 dpi = "120-640dpi"
-
-[Twitter]
-enabled = false
-patches-source = "crimera/piko"
-cli-source = "MorpheApp/morphe-cli"
-rv-brand = "Piko"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
-build-mode = "module"
-version = "11.81.0-release.0"
-include-stock = "split"
-
-[GooglePhotos]
-enabled = false
-build-mode = "apk"
-arch = "arm64-v8a"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
-uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
-
-[Twitch]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
-uptodown-dlurl = "https://twitch.en.uptodown.com/android"
 
 [Gboard]
 enabled = true
@@ -95,12 +59,38 @@ rv-brand = "Jkennethcarino"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/gboard/"
 uptodown-dlurl = "https://gboard-go.en.uptodown.com/android"
 
-[Gboardlite]
+[TaskManager]
 enabled = true
 build-mode = "apk"
 arch = "arm64-v8a"
-pkg-name = "com.google.android.inputmethod.latin"
-patches-source = "jasonwu1994/Gboard-patches"
+patches-source = "Paresh-Maheshwari/paresh-patches"
 cli-source = "MorpheApp/morphe-cli"
-rv-brand = "Jasonwu-lite"
-archive-dlurl = "https://archive.org/download/com.google.android.inputmethod.latin_17.7.4.932364120-lite_release-arm64-v8a-175"
+rv-brand = "Paresh"
+direct-dlurl = "https://github.com/RohitKushvaha01/TaskManager/releases/download/v1.5.2/taskmanager-v1.5.2.apk"
+
+[GooglePhotos]
+enabled = true
+build-mode = "apk"
+arch = "arm64-v8a"
+patches-source = "rushiranpise/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "rushiranpise"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
+uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
+
+[Twitter]
+enabled = false
+patches-source = "crimera/piko"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "Piko"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
+build-mode = "module"
+version = "11.81.0-release.0"
+include-stock = "split"
+
+[Twitch]
+enabled = false
+apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
+uptodown-dlurl = "https://twitch.en.uptodown.com/android"
