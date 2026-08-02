@@ -1,4 +1,3 @@
-Gboard: 17.7.7.932364120-release-arm64-v8a  
 Gboard2: 17.8.3.939743344  
 GooglePhotos: 7.85.0.952162352  
 Music-Morphe: 9.15.51  
