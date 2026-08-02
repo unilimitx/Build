@@ -85,7 +85,7 @@ rv-brand = "Jasonwu"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/gboard/"
 uptodown-dlurl = "https://gboard-go.en.uptodown.com/android"
 
-[Gboard 2]
+[Gboard2]
 enabled = true
 build-mode = "apk"
 arch = "arm64-v8a"
