@@ -1,4 +1,6 @@
 Gboard: 17.7.7.932364120-release-arm64-v8a  
+Gboard2: 17.8.3  
+GooglePhotos: 7.85.0  
 Music-Morphe: 9.15.51  
 YouTube-Morphe: 21.04.223  
 
