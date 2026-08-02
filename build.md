@@ -1,5 +1,5 @@
+Gboard: 17.7.7.932364120-release-arm64-v8a  
 Music-Morphe: 9.15.51  
-Reddit-Morphe: 2026.14.0  
 YouTube-Morphe: 21.04.223  
 
 Install [Microg](https://github.com/MorpheApp/MicroG-RE/) for non-root YouTube and YT Music APKs  
@@ -15,4 +15,7 @@ Patches: jkennethcarino/patches-1.2.0.mpp
 [Changelog](https://github.com/jkennethcarino/adobo/releases/tag/v1.2.0)
 
 Patches: MorpheApp/patches-1.38.0.mpp  
-[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.38.0)  
+[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.38.0)
+
+Patches: rushiranpise/patches-1.15.1.mpp  
+[Changelog](https://github.com/rushiranpise/morphe-patches/releases/tag/v1.15.1)  
