@@ -61,6 +61,7 @@ rv-brand = "Jkennethcarino"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/gboard"
 uptodown-dlurl = "https://gboard-go.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/unix-custom-apk/apks/com.google.android.inputmethod.latin"
+included-patches = "'Always-incognito mode' 'Enable OCR feature' 'Enable Undo feature' 'Enable clipboard in incognito' 'Enable key shape selection' 'Enable voice typing in incognito' 'Toggle feature flags'"
 
 [TaskManager]
 enabled = false
@@ -82,6 +83,7 @@ rv-brand = "rushiranpise"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos"
 uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/unix-custom-apk/apks/com.google.android.apps.photos"
+included-patches = "'AMOLED dark theme' 'Change package name' 'Enable DCIM folders backup control' 'Fix DCIM folder classification' 'GmsCore support' 'Spoof features'"
 
 [Warp]
 enabled = true
@@ -92,6 +94,7 @@ cli-source = "MorpheApp/morphe-cli"
 rv-brand = "rushiranpise"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/cloudflare/1-1-1-1-faster-safer-internet"
 uptodown-dlurl = "https://1-1-1-1.en.uptodown.com/android"
+included-patches = "'Disable Analytics / Telemetry' 'Disable SSL Pinning' 'Spoof WARP+ Unlimited UI'"
 # archive-dlurl = ""
 
 [Twitter]
@@ -109,8 +112,4 @@ include-stock = "split"
 enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 uptodown-dlurl = "https://twitch.en.uptodown.com/android"
-
-[Twitch]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
-uptodown-dlurl = "https://twitch.en.uptodown.com/android"
+include-stock = "split"
