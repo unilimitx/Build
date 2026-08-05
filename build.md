@@ -1,6 +1,8 @@
+Gboard: 17.7.7.932364120-release-arm64-v8a  
 Gboard2: 17.8.3.939743344  
-GooglePhotos: 7.85.0.952162352  
+GooglePhotos: 7.86.0.956040398-52137118  
 Music-Morphe: 9.15.51  
+Warp: 6.38.8  
 YouTube-Morphe: 21.04.223  
 
 Install [Microg](https://github.com/MorpheApp/MicroG-RE/) for non-root YouTube and YT Music APKs  
