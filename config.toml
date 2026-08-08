@@ -61,7 +61,8 @@ rv-brand = "Jkennethcarino"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/gboard"
 uptodown-dlurl = "https://gboard-go.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/unix-custom-apk/apks/com.google.android.inputmethod.latin"
-included-patches = "'Always-incognito mode' 'Enable OCR feature' 'Enable Undo feature' 'Enable clipboard in incognito' 'Enable key shape selection' 'Enable voice typing in incognito' 'Toggle feature flags'"
+included-patches = "'Always-incognito mode' 'Enable OCR feature' 'Enable Undo feature' 'Enable clipboard in incognito' 'Enable key shape selection' 'Enable voice typing in incognito'"
+# Toggle feature flags
 
 [TaskManager]
 enabled = false
