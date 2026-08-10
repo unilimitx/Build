@@ -7,7 +7,87 @@ cli-source = "MorpheApp/morphe-cli"
 
 # you can use rvmm-config-gen to generate a config
 
+[JioHotstar]
+# app-name = "YouTube"
+patches-source = "durgesh0505/chiggi_morphe_patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "durgesh"
+build-mode = "apk"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/jiostar-india-private-limited/jiohotstar-3"
+# uptodown-dlurl = ""
+direct-dlurl = "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=14648672&key=3b5c595ac1b898ebfcb9210a4786dbb97c369cbb"
+
+[Jiotv+]
+# app-name = "YouTube"
+patches-source = "durgesh0505/chiggi_morphe_patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "durgesh"
+build-mode = "apk"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/jio-platforms-limited/jiotv-android-tv-3"
+direct-dlurl = "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=14043990&key=13f29b6184aed6c82c5d3e51ff6406166c335a76"
+# uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+
+[Tubi]
+# app-name = "YouTube"
+patches-source = "ajstrick81/morphe-androidtv-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "ajstrick81"
+build-mode = "apk"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/tubi-tv/tubi-free-movies-live-tv-android-tv/"
+direct-dlurl = "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=14879518&key=8b5a3162fc3a96ef5c7c60333b693673e1bae5db"
+# uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+
+[Plutotv]
+# app-name = "YouTube"
+patches-source = "ajstrick81/morphe-androidtv-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "ajstrick81"
+build-mode = "apk"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/pluto-inc/pluto-tv-android-tv/"
+direct-dlurl = "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=13794634&key=47cb8504cf9a02b44ac2f96a1ead3f20ece40132"
+# uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+
+[HBO Max]
+# enabled = false
+# app-name = "YouTube"
+patches-source = "ajstrick81/morphe-androidtv-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "ajstrick81"
+build-mode = "apk"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/warnermedia-direct-llc/max-stream-hbo-tv-movies-android-tv/"
+direct-dlurl = "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=13647704&key=fed7d196887bb1ec7c3c899e0ab7a8dfc5d9cfe3"
+# uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+
+[Disney+]
+# enabled = false
+# app-name = "YouTube"
+patches-source = "ajstrick81/morphe-androidtv-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "ajstrick81"
+build-mode = "apk"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/disney/disney-android-tv/"
+direct-dlurl = "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=14854597&key=9d7538413fdbaf0d3f5fbacb6dbc4fc0db951801"
+# uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+
+[Peacock TV]
+# enabled = false
+# app-name = "YouTube"
+patches-source = "ajstrick81/morphe-androidtv-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "ajstrick81"
+build-mode = "apk"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/peacock-tv-llc/peacock-tv-android-tv/"
+direct-dlurl = "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=14162234&key=23921cd552c5083f45d95328bf2727b6fc9ce054"
+# uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+
 [YouTube-Morphe]
+enabled = false
 app-name = "YouTube"
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
@@ -18,6 +98,7 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
 [Music-Morphe]
+enabled = false
 app-name = "Music"
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
@@ -41,7 +122,7 @@ uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 dpi = "120-640dpi"
 
 [Gboard]
-enabled = true
+enabled = false
 build-mode = "apk"
 arch = "arm64-v8a"
 patches-source = "jasonwu1994/Gboard-patches"
@@ -52,7 +133,7 @@ uptodown-dlurl = "https://gboard-go.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/unix-custom-apk/apks/com.google.android.inputmethod.latin"
 
 [Gboard2]
-enabled = true
+enabled = false
 build-mode = "apk"
 arch = "arm64-v8a"
 patches-source = "jkennethcarino/adobo"
@@ -87,7 +168,7 @@ archive-dlurl = "https://archive.org/download/unix-custom-apk/apks/com.google.an
 included-patches = "'AMOLED dark theme' 'Change package name' 'Enable DCIM folders backup control' 'Fix DCIM folder classification' 'GmsCore support' 'Spoof features'"
 
 [Warp]
-enabled = true
+enabled = false
 build-mode = "apk"
 arch = "arm64-v8a"
 patches-source = "rushiranpise/morphe-patches"
