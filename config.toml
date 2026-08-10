@@ -17,7 +17,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/jiostar-india-private-limited/j
 # uptodown-dlurl = ""
 direct-dlurl = "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=14648672&key=3b5c595ac1b898ebfcb9210a4786dbb97c369cbb"
 
-[Jiotv+]
+[Jiotv]
 # app-name = "YouTube"
 patches-source = "durgesh0505/chiggi_morphe_patches"
 cli-source = "MorpheApp/morphe-cli"
