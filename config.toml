@@ -50,7 +50,7 @@ direct-dlurl = "https://www.apkmirror.com/wp-content/themes/APKMirror/download.p
 # uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
-[HBO Max]
+[HBO-Max]
 # enabled = false
 # app-name = "YouTube"
 patches-source = "ajstrick81/morphe-androidtv-patches"
@@ -74,7 +74,7 @@ direct-dlurl = "https://www.apkmirror.com/wp-content/themes/APKMirror/download.p
 # uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
-[Peacock TV]
+[Peacock-TV]
 # enabled = false
 # app-name = "YouTube"
 patches-source = "ajstrick81/morphe-androidtv-patches"
