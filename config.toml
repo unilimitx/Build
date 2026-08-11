@@ -46,7 +46,7 @@ uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 dpi = "120-640dpi"
 
 [Gboard]
-enabled = true
+enabled = false
 build-mode = "apk"
 arch = "arm64-v8a"
 patches-source = "jasonwu1994/Gboard-patches"
@@ -58,7 +58,7 @@ archive-dlurl = "https://archive.org/download/unix-custom-apk/apks/com.google.an
 version = "17.7.7.932364120-release"
 
 [Gboard2]
-enabled = true
+enabled = false
 build-mode = "apk"
 arch = "arm64-v8a"
 patches-source = "jkennethcarino/adobo"
@@ -91,7 +91,7 @@ rv-brand = "rushiranpise"
 # uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/unix-custom-apk/apks/com.google.android.apps.photos"
 included-patches = "'AMOLED dark theme' 'Change package name' 'Enable DCIM folders backup control' 'Fix DCIM folder classification' 'GmsCore support' 'Spoof features'"
-version = "7.86.0.956040398"
+# version = "7.86.0.956040398"
 # dpi = "nodpi"
 
 [Warp]
