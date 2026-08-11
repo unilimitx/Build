@@ -6,6 +6,7 @@ cli-source = "MorpheApp/morphe-cli"
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 dpi = "nodpi anydpi 120-640dpi"
 # you can use rvmm-config-gen to generate a config
+REMOVE_RV_INTEGRATIONS_CHECKS: false
 
 [YouTube-Morphe]
 enabled = false
