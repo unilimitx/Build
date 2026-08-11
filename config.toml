@@ -4,7 +4,7 @@ patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
-dpi = "nodpi anydpi 120-640dpi"
+dpi = "nodpi anydpi"
 # you can use rvmm-config-gen to generate a config
 REMOVE_RV_INTEGRATIONS_CHECKS = false
 
@@ -46,7 +46,7 @@ uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 dpi = "120-640dpi"
 
 [Gboard]
-enabled = false
+enabled = true
 build-mode = "apk"
 arch = "arm64-v8a"
 patches-source = "jasonwu1994/Gboard-patches"
