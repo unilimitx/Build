@@ -84,7 +84,7 @@ archive-dlurl = "https://archive.org/download/unix-custom-apk/apks/com.rohit.tas
 [GooglePhotos]
 enabled = true
 build-mode = "apk"
-arch = "arm64-v8a"
+# arch = "arm64-v8a"
 patches-source = "rushiranpise/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "rushiranpise"
