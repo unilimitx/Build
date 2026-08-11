@@ -8,6 +8,7 @@ cli-source = "MorpheApp/morphe-cli"
 # you can use rvmm-config-gen to generate a config
 
 [YouTube-Morphe]
+enabled = false
 app-name = "YouTube"
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
@@ -18,6 +19,7 @@ build-mode = "apk"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
 [Music-Morphe]
+enabled = false
 app-name = "Music"
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
