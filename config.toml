@@ -55,7 +55,7 @@ rv-brand = "Jasonwu"
 # apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/gboard"
 # uptodown-dlurl = "https://gboard-go.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/unix-custom-apk/apks/com.google.android.inputmethod.latin"
-# version = "17.7.7.932364120-release"
+version = "17.7.7.932364120-release"
 # dpi = "nodpi"
 
 [Gboard2]
@@ -92,7 +92,7 @@ rv-brand = "rushiranpise"
 # uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/unix-custom-apk/apks/com.google.android.apps.photos"
 included-patches = "'AMOLED dark theme' 'Change package name' 'Enable DCIM folders backup control' 'Fix DCIM folder classification' 'GmsCore support' 'Spoof features'"
-# version = "7.86.0.956040398"
+version = "7.86.0.956040398"
 # dpi = "nodpi"
 
 [Warp]
