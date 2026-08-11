@@ -50,6 +50,7 @@ rv-brand = "Jasonwu"
 # apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/gboard"
 # uptodown-dlurl = "https://gboard-go.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/unix-custom-apk/apks/com.google.android.inputmethod.latin"
+dpi = "120-640dpi"
 
 [Gboard2]
 enabled = true
@@ -85,6 +86,7 @@ rv-brand = "rushiranpise"
 # uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/unix-custom-apk/apks/com.google.android.apps.photos"
 included-patches = "'AMOLED dark theme' 'Change package name' 'Enable DCIM folders backup control' 'Fix DCIM folder classification' 'GmsCore support' 'Spoof features'"
+dpi = "120-640dpi"
 
 [Warp]
 enabled = true
