@@ -9,7 +9,7 @@ cli-source = "MorpheApp/morphe-cli"
 REMOVE_RV_INTEGRATIONS_CHECKS = false
 
 [YouTube-Morphe]
-enabled = false
+# enabled = false
 app-name = "YouTube"
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
@@ -21,7 +21,7 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.y
 dpi = "nodpi"
 
 [Music-Morphe]
-enabled = false
+# enabled = false
 app-name = "Music"
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
@@ -115,7 +115,7 @@ included-patches = "'Disable Analytics / Telemetry' 'Disable SSL Pinning' 'Spoof
 # archive-dlurl = ""
 
 [Music]
-enabled = false
+# enabled = false
 build-mode = "both"
 arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
