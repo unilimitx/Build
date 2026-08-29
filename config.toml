@@ -1,121 +1,52 @@
-enable-module-update = false # set this to false if you do not want to receive updates for the module
+enable-module-update = true # set this to false if you do not want to receive updates for the module
 parallel-jobs = 1
-patches-source = "MorpheApp/morphe-patches"
-cli-source = "MorpheApp/morphe-cli"
+
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
-# dpi = "nodpi anydpi"
+
 # you can use rvmm-config-gen to generate a config
-REMOVE_RV_INTEGRATIONS_CHECKS = false
 
 [YouTube-Morphe]
-# enabled = false
 app-name = "YouTube"
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Morphe"
-build-mode = "apk"
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-# uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+build-mode = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-dpi = "nodpi"
 
 [Music-Morphe]
-# enabled = false
 app-name = "Music"
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Morphe"
-build-mode = "apk"
-arch = "arm64-v8a"
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-# uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+build-mode = "both"
+arch = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
-dpi = "nodpi"
 
 [Reddit-Morphe]
-enabled = false
 app-name = "Reddit"
 rv-brand = "Morphe"
-build-mode = "apk"
+build-mode = "both"
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
 uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 dpi = "120-640dpi"
 
 [GooglePhotos]
-enabled = false
 build-mode = "both"
 patches-source = "RookieEnough/De-Vanced"
 cli-source = "MorpheApp/morphe-cli"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
 
-[Gboard]
-enabled = false
-build-mode = "apk"
-arch = "arm64-v8a"
-patches-source = "jasonwu1994/Gboard-patches"
-cli-source = "MorpheApp/morphe-cli"
-rv-brand = "Jasonwu"
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/gboard"
-# uptodown-dlurl = "https://gboard-go.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/unix-custom-apk/apks/com.google.android.inputmethod.latin"
-version = "17.7.7.932364120-release"
-
-[Gboard2]
-enabled = false
-build-mode = "apk"
-arch = "arm64-v8a"
-patches-source = "jkennethcarino/adobo"
-cli-source = "MorpheApp/morphe-cli"
-rv-brand = "Jkennethcarino"
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/gboard"
-# uptodown-dlurl = "https://gboard-go.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/unix-custom-apk/apks/com.google.android.inputmethod.latin"
-included-patches = "'Always-incognito mode' 'Enable OCR feature' 'Enable Undo feature' 'Enable clipboard in incognito' 'Enable key shape selection' 'Enable voice typing in incognito'"
-# Toggle feature flags
-
-[TaskManager]
-enabled = false
-build-mode = "apk"
-arch = "arm64-v8a"
-patches-source = "https://gitlab.com/Paresh-Maheshwari/paresh-patches"
-cli-source = "MorpheApp/morphe-cli"
-rv-brand = "Paresh"
-# direct-dlurl = "https://github.com/RohitKushvaha01/TaskManager/releases/download/v1.5.2/taskmanager-v1.5.2.apk"
-archive-dlurl = "https://archive.org/download/unix-custom-apk/apks/com.rohit.taskmanager"
-
-[GooglePhotos1]
-enabled = true
-build-mode = "apk"
-arch = "arm64-v8a"
-patches-source = "rushiranpise/morphe-patches"
-cli-source = "MorpheApp/morphe-cli"
-rv-brand = "rushiranpise"
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos"
-# uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/unix-custom-apk/apks/com.google.android.apps.photos"
-included-patches = "'AMOLED dark theme' 'Change package name' 'Enable DCIM folders backup control' 'Fix DCIM folder classification' 'GmsCore support' 'Spoof features'"
-# version = "7.86.0.956040398"
-# dpi = "nodpi"
-
-[Warp]
-enabled = true
-build-mode = "apk"
-arch = "arm64-v8a"
-patches-source = "rushiranpise/morphe-patches"
-cli-source = "MorpheApp/morphe-cli"
-rv-brand = "rushiranpise"
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/cloudflare/1-1-1-1-faster-safer-internet"
-# uptodown-dlurl = "https://1-1-1-1.en.uptodown.com/android"
-included-patches = "'Disable Analytics / Telemetry' 'Disable SSL Pinning' 'Spoof WARP+ Unlimited UI'"
-# archive-dlurl = ""
-
 [Music]
-# enabled = false
+enabled = false
 build-mode = "both"
 arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
