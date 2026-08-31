@@ -63,7 +63,7 @@ rv-brand = "Jasonwu"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/gboard"
 uptodown-dlurl = "https://gboard-go.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/unix-custom-apk/apks/com.google.android.inputmethod.latin"
-# version = "17.7.7.932364120-release"
+version = "18.0.3.954559732-release"
 
 [Gboard2]
 # enabled = false
@@ -74,7 +74,7 @@ cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Jkennethcarino"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/gboard"
 uptodown-dlurl = "https://gboard-go.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/unix-custom-apk/apks/com.google.android.inputmethod.latin"
+# archive-dlurl = "https://archive.org/download/unix-custom-apk/apks/com.google.android.inputmethod.latin"
 # included-patches = "'Always-incognito mode' 'Enable OCR feature' 'Enable Undo feature' 'Enable clipboard in incognito' 'Enable key shape selection' 'Enable voice typing in incognito'"
 # Toggle feature flags
 
@@ -97,9 +97,9 @@ cli-source = "MorpheApp/morphe-cli"
 rv-brand = "rushiranpise"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos"
 uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/unix-custom-apk/apks/com.google.android.apps.photos"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
 # included-patches = "'AMOLED dark theme' 'Change package name' 'Enable DCIM folders backup control' 'Fix DCIM folder classification' 'GmsCore support' 'Spoof features'"
-# version = "7.86.0.956040398"
+version = "7.90.0.971743778"
 # dpi = "nodpi"
 
 [Warp]
