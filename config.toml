@@ -64,7 +64,7 @@ rv-brand = "Jasonwu"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/gboard"
 uptodown-dlurl = "https://gboard-go.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/unix-custom-apk/apks/com.google.android.inputmethod.latin"
-version = "17.7.7.932364120-release"
+# version = "17.7.7.932364120-release"
 included-patches = "'AI Writing Tools' 'Add Gboard Signature Bypass' 'Clipboard Enhancements' 'Close Proactive Suggestions' 'Custom Symbols' 'Developer options' 'Enable Inline Autofill Suggestions' 'Enable OCR / Scan Text' 'Enable cursor trackpad mode' 'Floating Web Search' 'Grammar Checker' 'Inline Suggestions' 'Latin Globe Key Ignore Interval' 'Long-Press Editing Shortcuts'"
 
 [Gboard2]
