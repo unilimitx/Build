@@ -118,6 +118,7 @@ included-patches = "'Disable Analytics / Telemetry' 'Disable SSL Pinning' 'Spoof
 # archive-dlurl = ""
 
 [Twitter]
+enabled = false
 patches-source = "crimera/piko-newx"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Piko"
