@@ -10,7 +10,7 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach YouTube and
 Patches: jasonwu1994/Gboard-patches/patches-3.11.0.mpp  
 [Changelog](https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.11.0)
 
-CLI: MorpheApp/morphe-cli/morphe-desktop-1.16.0-all.jar  
+CLI: MorpheApp/morphe-cli/morphe-desktop-1.17.0-all.jar  
 Patches: jkennethcarino/adobo/patches-1.5.0.mpp  
 [Changelog](https://github.com/jkennethcarino/adobo/releases/tag/v1.5.0)
 
