@@ -7,18 +7,16 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach YouTube and
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)
   
-Patches: jasonwu1994/Gboard-patches/patches-3.11.0.mpp  
-[Changelog](https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.11.0)
+Patches: MorpheApp/morphe-patches/patches-1.45.0.mpp  
+[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.45.0)
+
+Patches: RookieEnough/De-Vanced/patches-1.5.0.mpp  
+[Changelog](https://github.com/RookieEnough/De-Vanced/releases/tag/v1.5.0)
 
 CLI: MorpheApp/morphe-cli/morphe-desktop-1.18.0-all.jar  
-Patches: jkennethcarino/adobo/patches-1.5.0.mpp  
-[Changelog](https://github.com/jkennethcarino/adobo/releases/tag/v1.5.0)
-
-Patches: MorpheApp/morphe-patches/patches-1.44.0.mpp  
-[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.44.0)
-
-Patches: RookieEnough/De-Vanced/patches-1.4.4.mpp  
-[Changelog](https://github.com/RookieEnough/De-Vanced/releases/tag/v1.4.4)
-
 Patches: rushiranpise/morphe-patches/patches-1.22.0.mpp  
 [Changelog](https://github.com/rushiranpise/morphe-patches/releases/tag/v1.22.0)  
+
+Skipped:  
+Patches: jasonwu1994/Gboard-patches/patches-3.11.0.mpp  
+Patches: jkennethcarino/adobo/patches-1.5.0.mpp    
