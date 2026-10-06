@@ -92,14 +92,14 @@ archive-dlurl = "https://archive.org/download/unix-custom-apk/apks/com.rohit.tas
 enabled = true
 build-mode = "apk"
 arch = "arm64-v8a"
-patches-source = "rushiranpise/morphe-patches"
+patches-source = "Akash-Sriram/morphe-google-photos"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "rushiranpise"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
-included-patches = "'AMOLED dark theme'"
+# included-patches = "'AMOLED dark theme'"
 # 'Change package name' 'Enable DCIM folders backup control' 'Fix DCIM folder classification' 'GmsCore support' 'Spoof features'"
-version = "7.90.0.971743778"
+version = "7.95.0.989626323"
 # dpi = "nodpi"
 enable-update-checks = true
 
