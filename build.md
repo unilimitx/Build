@@ -7,15 +7,15 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach YouTube and
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)
   
-Patches: Akash-Sriram/morphe-google-photos/patches-1.14.4.mpp  
-[Changelog](https://github.com/Akash-Sriram/morphe-google-photos/releases/tag/v1.14.4)
+Patches: Akash-Sriram/morphe-google-photos/patches-1.15.4.mpp  
+[Changelog](https://github.com/Akash-Sriram/morphe-google-photos/releases/tag/v1.15.4)
 
-Patches: jasonwu1994/Gboard-patches/patches-3.12.0.mpp  
-[Changelog](https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.12.0)
+Patches: jasonwu1994/Gboard-patches/patches-3.13.0.mpp  
+[Changelog](https://github.com/jasonwu1994/Gboard-patches/releases/tag/v3.13.0)
 
 CLI: MorpheApp/morphe-cli/morphe-desktop-1.18.1-all.jar  
-Patches: jkennethcarino/adobo/patches-1.5.0.mpp  
-[Changelog](https://github.com/jkennethcarino/adobo/releases/tag/v1.5.0)
+Patches: jkennethcarino/adobo/patches-1.6.0.mpp  
+[Changelog](https://github.com/jkennethcarino/adobo/releases/tag/v1.6.0)
 
 Patches: MorpheApp/morphe-patches/patches-1.47.0.mpp  
 [Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.47.0)
