@@ -1,8 +1,8 @@
 Gboard2: 18.6.3.1002251336  
 GooglePhotos: 7.92.0.977185651  
 GooglePhotos1: 7.95.0.989626323  
-Music-Morphe: 9.30.53  
-YouTube-Morphe: 21.30.216  
+Music-Morphe: 9.44.52  
+YouTube-Morphe: 21.44.528  
 
 Install [Microg](https://github.com/MorpheApp/MicroG-RE/) for non-root YouTube and YT Music APKs  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach YouTube and YT Music modules from Play Store  
