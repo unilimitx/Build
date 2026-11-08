@@ -19,6 +19,7 @@ excluded-patches = """\
   
 enable-update-checks = true
 dpi = "nodpi"
+version = "experimental"
 
 [Music-Morphe]
 # enabled = false
@@ -32,6 +33,7 @@ excluded-patches = """\
   """
 
 enable-update-checks = true
+version = "experimental"
 
 [Reddit-Morphe]
 enabled = false
