@@ -93,6 +93,11 @@ patches-source = "Akash-Sriram/morphe-google-photos"
 rv-brand = "Akash-Sriram"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
+excluded-patches = """\
+  'Custom branding' \
+"""
+
+included-patches = "'Official package name'"
 # included-patches = "'AMOLED dark theme'"
 # 'Change package name' 'Enable DCIM folders backup control' 'Fix DCIM folder classification' 'GmsCore support' 'Spoof features'"
 version = "7.99.0.1007655401"
