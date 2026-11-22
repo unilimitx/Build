@@ -1,4 +1,4 @@
-Gboard2: 18.6.3.1002251336  
+Gboard2: 18.6.7.1002251336  
 GooglePhotos: 7.92.0.977185651  
 GooglePhotos1: 7.99.0.1007655401  
 Music-Morphe: 9.46.51  
@@ -15,9 +15,9 @@ Patches: Akash-Sriram/morphe-google-photos/patches-1.18.0.mpp
 Patches: jasonwu1994/Gboard-patches/patches-4.3.0.mpp  
 [Changelog](https://github.com/jasonwu1994/Gboard-patches/releases/tag/v4.3.0)
 
-CLI: MorpheApp/morphe-cli/morphe-desktop-2.2.0-all.jar  
-Patches: jkennethcarino/adobo/patches-1.7.0.mpp  
-[Changelog](https://github.com/jkennethcarino/adobo/releases/tag/v1.7.0)
+CLI: MorpheApp/morphe-cli/morphe-desktop-2.3.0-all.jar  
+Patches: jkennethcarino/adobo/patches-2.0.1.mpp  
+[Changelog](https://github.com/jkennethcarino/adobo/releases/tag/v2.0.1)
 
 Patches: MorpheApp/morphe-patches/patches-2.3.0.mpp  
 [Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v2.3.0)
